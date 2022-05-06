@@ -1,0 +1,48 @@
+:root {
+  --color-primary: #1abc9c;
+  --color-secondary: #2c3e50;
+  --color-tertiary: #3a546d;
+}
+
+.bg-prim {
+  background-color: var(--color-primary);
+}
+.bg-second {
+  background-color: var(--color-secondary);
+}
+
+.bg-tert {
+  background-color: var(--color-tertiary);
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.avatar {
+  width: 140px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hr-black {
+  background-color: black;
+  height: 1px;
+  width: 110px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+.hr-white {
+  background-color: white;
+  height: 1px;
+  width: 110px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.color-white {
+  color: white;
+}
