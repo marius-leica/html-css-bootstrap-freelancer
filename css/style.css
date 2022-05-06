@@ -46,3 +46,19 @@ nav a {
 .color-white {
   color: white;
 }
+
+.navbar-light .color-white {
+  color: white;
+}
+
+.navbar-light .border-white {
+  color: white;
+}
+
+.navbar-light .filter-invert {
+  filter: invert(1);
+}
+
+.navbar-light .navbar-nav .color-white {
+  color: white;
+}
