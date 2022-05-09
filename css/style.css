@@ -109,3 +109,10 @@ nav a {
   color: #3a546d;
   transition: color 0.3s ease-in-out;
 }
+
+.card:hover img {
+  cursor: pointer;
+  filter: grayscale(0.5);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
