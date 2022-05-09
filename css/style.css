@@ -1,5 +1,7 @@
 :root {
   --color-primary: #1abc9c;
+  --bs-primary-rgb: 26, 188, 156;
+  --color-primary-dark: #1a9d82;
   --color-secondary: #2c3e50;
   --color-tertiary: #3a546d;
 }
@@ -7,6 +9,7 @@
 .bg-prim {
   background-color: var(--color-primary);
 }
+
 .bg-second {
   background-color: var(--color-secondary);
 }
@@ -30,14 +33,17 @@ nav a {
 
 .hr-black {
   background-color: black;
-  height: 1px;
+  height: 2px;
+  border-radius: 5px;
   width: 110px;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
 }
+
 .hr-white {
   background-color: white;
-  height: 1px;
+  height: 2px;
+  border-radius: 5px;
   width: 110px;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
@@ -61,4 +67,45 @@ nav a {
 
 .navbar-light .navbar-nav .color-white {
   color: white;
+}
+
+
+.form-control {
+
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+
+}
+
+.form-floating-modified {
+  height: auto;
+}
+
+.btn-primary-custom {
+  background-color: var(--color-primary);
+  border: 0;
+  margin-top: 0.5rem;
+}
+
+.btn-primary-custom:hover {
+  background-color: var(--color-primary-dark);
+
+}
+
+.row .custom .b-black {
+  border-bottom: 1px solid black;
+}
+
+.square {
+  width: 39px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square:hover i {
+  color: #3a546d;
+  transition: color 0.3s ease-in-out;
 }
